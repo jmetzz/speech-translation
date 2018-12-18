@@ -1,0 +1,16 @@
+name: speech2text
+channels:
+  - defaults
+dependencies:
+  - pyaudio
+  - autopep8
+  - pylint
+  - prompt_toolkit
+  - pip:
+    - pocketsphinx
+    - SpeechRecognition
+    - google-cloud-storage
+    - google-cloud-speech
+    - google-api-python-client
+
+prefix: /opt/conda/envs/speech2text

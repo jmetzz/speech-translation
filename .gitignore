@@ -1,0 +1,15 @@
+# General 
+.DS_Store
+
+# Python
+*.pyc
+.vscode/
+__pycache__/
+
+#IDE
+.vscode/
+.idea/
+ *.iml
+
+secret
+
